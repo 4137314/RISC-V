@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\title{RISC-V "Atomic" Core Implementation}
+\author{4137314}
+\date{2025}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+This document describes the implementation of a 32-bit RISC-V core (RV32I) developed in VHDL.
+
+\section{Architecture}
+The core follows a classic RISC pipeline structure:
+\begin{itemize}
+    \item \textbf{Fetch:} Instruction retrieval from Memory.
+    \item \textbf{Decode:} Opcode analysis and register file access.
+    \item \textbf{Execute:} ALU operations and address calculation.
+\end{itemize}
+
+\end{document}
