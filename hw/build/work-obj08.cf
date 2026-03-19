@@ -1,0 +1,81 @@
+v 4
+file "/home/main/dev/git/RISC-V/" "hw/tb/system/memory_model.vhd" "ed1073a77fba241f9b19e0a6a624f5dca0df8f84" "20260319155353.954":
+  entity memory_model at 4( 109) + 0 on 62;
+  architecture sim of memory_model at 25( 710) + 0 on 63;
+file "/home/main/dev/git/RISC-V/" "hw/tb/system/tb_riscv_core.vhd" "d6af2fa298487705e7939bd103fdcf52e1107171" "20260319155353.954":
+  entity tb_riscv_core at 1( 0) + 0 on 60;
+  architecture sim of tb_riscv_core at 12( 187) + 0 on 61;
+file "/home/main/dev/git/RISC-V/" "hw/tb/core/tb_alu.vhd" "6d07d80b7748df6c58bd465c7866da27fa0948b6" "20260319155353.953":
+  entity tb_alu at 1( 0) + 0 on 58;
+  architecture sim of tb_alu at 12( 224) + 0 on 59;
+file "/home/main/dev/git/RISC-V/" "hw/tb/core/tb_regfile.vhd" "7582beb136bf413a4b0a52a07a7e473f896ff5d9" "20260319155353.952":
+  entity tb_regfile at 1( 0) + 0 on 56;
+  architecture sim of tb_regfile at 11( 157) + 0 on 57;
+file "/home/main/dev/git/RISC-V/" "hw/tb/include/tb_utils_pkg.vhd" "9c07980e4a2a83c6f48954ac1f44817a7d42b902" "20260319155353.927":
+  package tb_utils_pkg at 1( 0) + 0 on 14 body;
+  package body tb_utils_pkg at 21( 514) + 0 on 15;
+file "/home/main/dev/git/RISC-V/" "hw/src/common/config_pkg.vhd" "526a34e781d7276ba70162507b01d395bcc1aa4f" "20260319155353.927":
+  package config_pkg at 1( 0) + 0 on 13;
+file "/home/main/dev/git/RISC-V/" "hw/src/common/riscv_pkg.vhd" "93be24b7e319b0b7da595d286b95f979c0f64574" "20260319155353.927":
+  package riscv_pkg at 1( 0) + 0 on 11;
+  package body riscv_pkg at 49( 1638) + 0 on 12;
+file "/home/main/dev/git/RISC-V/" "hw/src/control/forwarding_unit.vhd" "9adc435203a015f3591e1df1c7af619f364b49bb" "20260319155353.935":
+  entity forwarding_unit at 10( 298) + 0 on 16;
+  architecture rtl of forwarding_unit at 27( 830) + 0 on 17;
+file "/home/main/dev/git/RISC-V/" "hw/src/control/hazard_unit.vhd" "cf9906eab9cbf1c101907cdfa17c118b5f4bfdcc" "20260319155353.935":
+  entity hazard_unit at 11( 347) + 0 on 18;
+  architecture rtl of hazard_unit at 30( 873) + 0 on 19;
+file "/home/main/dev/git/RISC-V/" "hw/src/control/control_unit.vhd" "dc55f9c9c8a626ae32f0d21fa98ebfeccedb5071" "20260319155353.936":
+  entity control_unit at 1( 0) + 0 on 20;
+  architecture rtl of control_unit at 18( 469) + 0 on 21;
+file "/home/main/dev/git/RISC-V/" "hw/src/core/branch_unit.vhd" "7c205ff56334d2375853a8d563e4ac6b5f072c92" "20260319155353.936":
+  entity branch_unit at 5( 111) + 0 on 22;
+  architecture rtl of branch_unit at 18( 416) + 0 on 23;
+file "/home/main/dev/git/RISC-V/" "hw/src/core/csr_unit.vhd" "64f34f48131a3617d8f407d47b8673849309a5a5" "20260319155353.937":
+  entity csr_unit at 7( 169) + 0 on 24;
+  architecture rtl of csr_unit at 22( 547) + 0 on 25;
+file "/home/main/dev/git/RISC-V/" "hw/src/core/imm_gen.vhd" "73c255c38fa333a96c71a63b20969e0fca5d914c" "20260319155353.937":
+  entity imm_gen at 8( 165) + 0 on 26;
+  architecture rtl of imm_gen at 19( 389) + 0 on 27;
+file "/home/main/dev/git/RISC-V/" "hw/src/core/pc.vhd" "4ee4a1cb25d8a19c677bbb91755afe4ff2c5326d" "20260319155353.938":
+  entity pc at 7( 153) + 0 on 28;
+  architecture rtl of pc at 20( 442) + 0 on 29;
+file "/home/main/dev/git/RISC-V/" "hw/src/core/decoder.vhd" "df1c370630388caae676c1edd9a52be944cf5f5b" "20260319155353.938":
+  entity decoder at 1( 0) + 0 on 30;
+  architecture rtl of decoder at 26( 672) + 0 on 31;
+file "/home/main/dev/git/RISC-V/" "hw/src/core/instr_mem.vhd" "34e2dd2a1b829c8d63d3e23f06edcdefdfd5840b" "20260319155353.939":
+  entity instr_mem at 5( 114) + 0 on 32;
+  architecture rtl of instr_mem at 24( 612) + 0 on 33;
+file "/home/main/dev/git/RISC-V/" "hw/src/core/multi_div.vhd" "c32e2050078c5e596bbfabe9fc6b774fbacdd6bd" "20260319155353.939":
+  entity multi_div at 5( 120) + 0 on 34;
+  architecture rtl of multi_div at 18( 477) + 0 on 35;
+file "/home/main/dev/git/RISC-V/" "hw/src/core/regfile.vhd" "c909eb0021fbdcd7c0e177a985022e5b553c9dbe" "20260319155353.940":
+  entity regfile at 5( 86) + 0 on 36;
+  architecture rtl of regfile at 23( 636) + 0 on 37;
+file "/home/main/dev/git/RISC-V/" "hw/src/core/alu.vhd" "b80d0a3516f6a4f871ccc9955e57fc34aba6f4bb" "20260319155353.941":
+  entity alu at 1( 0) + 0 on 38;
+  architecture rtl of alu at 15( 357) + 0 on 39;
+file "/home/main/dev/git/RISC-V/" "hw/src/memory/cache.vhd" "854fd5891cd4b4dd0b68dd84fbdbd276e8328dc4" "20260319155353.941":
+  entity cache at 7( 190) + 0 on 40;
+  architecture rtl of cache at 24( 666) + 0 on 41;
+file "/home/main/dev/git/RISC-V/" "hw/src/memory/bus_interface.vhd" "44064b24c8818cbd2aecd0b0e964222f78b7c901" "20260319155353.941":
+  entity bus_id at 5( 94) + 0 on 42;
+  architecture rtl of bus_id at 25( 670) + 0 on 43;
+file "/home/main/dev/git/RISC-V/" "hw/src/memory/boot_rom.vhd" "7000c8f80ee13f61819f7b4b023495b8a2253cc1" "20260319155353.942":
+  entity data_mem at 5( 113) + 0 on 44;
+  architecture rtl of data_mem at 22( 525) + 0 on 45;
+file "/home/main/dev/git/RISC-V/" "hw/src/pipeline/ex_mem.vhd" "a126f958a214899924878cd4226dd72d14d079d2" "20260319155353.942":
+  entity ex_mem at 5( 86) + 0 on 46;
+  architecture rtl of ex_mem at 34( 1028) + 0 on 47;
+file "/home/main/dev/git/RISC-V/" "hw/src/pipeline/id_ex.vhd" "5913fe670fd8d0859fad5de15cb316086b1234ec" "20260319155353.943":
+  entity id_ex at 5( 127) + 0 on 48;
+  architecture rtl of id_ex at 50( 1793) + 0 on 49;
+file "/home/main/dev/git/RISC-V/" "hw/src/pipeline/if_id.vhd" "b622519ee96cbac170a353c9d5d35f0391688d91" "20260319155353.943":
+  entity if_id at 5( 84) + 0 on 50;
+  architecture rtl of if_id at 25( 672) + 0 on 51;
+file "/home/main/dev/git/RISC-V/" "hw/src/pipeline/mem_wb.vhd" "a8c26765174975462b72115c68b150daabaa6570" "20260319155353.944":
+  entity mem_wb at 5( 86) + 0 on 52;
+  architecture rtl of mem_wb at 28( 792) + 0 on 53;
+file "/home/main/dev/git/RISC-V/" "hw/src/top/riscv.vhd" "45aa6a01f34e81a90cf2fefc256edcaac30748c1" "20260319155353.944":
+  entity riscv at 4( 84) + 0 on 54;
+  architecture top of riscv at 20( 403) + 0 on 55;
